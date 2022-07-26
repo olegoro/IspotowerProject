@@ -1,0 +1,115 @@
+<div class="containerUpper">
+  <div class="containerZipCode">
+    <div class="autoInsurance">Auto Insurance</div>
+    <div class="zipCode">
+      <app-zip-code></app-zip-code>
+    </div>
+  </div>
+  <div class="containerHeader">
+    <div class="bestInsuranceRatesHeader blue">10 Best New York car insurance rates</div>
+    <div class="bestInsuranceRatesSubHeader">Find and compare your best rates in 2 minutes</div>
+    <app-zip-code></app-zip-code>
+  </div>
+  <div class="dropdownList">
+    <div>
+      <div appDropdown class="dropdownItem">
+        <div class="header">Basics</div>
+        <div class="arrow down"></div>
+      </div>
+      <div style="display: none;" class="dropdownSubItems">
+        <div *ngFor="let article of basicsArticles; let i = index"
+          [routerLink]="['/article', basicsArticles[i].header, basicsArticles[i].subHeader, basicsArticles[i].article]">
+          {{ basicsArticles[i].header }}
+        </div>
+      </div>
+    </div>
+    <div>
+      <div appDropdown class="dropdownItem">
+        <div class="header">Types of coverage</div>
+        <div class="arrow down"></div>
+      </div>
+      <div style="display: none;" class="dropdownSubItems">
+        <div *ngFor="let article of typesOfCoverageArticles; let i = index"
+          [routerLink]="['/article', typesOfCoverageArticles[i].header, typesOfCoverageArticles[i].subHeader, typesOfCoverageArticles[i].article]">
+          {{ typesOfCoverageArticles[i].header }}
+        </div>
+      </div>
+    </div>
+    <div>
+      <div appDropdown class="dropdownItem">
+        <div class="header">Tips</div>
+        <div class="arrow down"></div>
+      </div>
+      <div style="display: none;" class="dropdownSubItems">
+        <div *ngFor="let article of tipsArticles; let i = index"
+          [routerLink]="['/article', tipsArticles[i].header, tipsArticles[i].subHeader, tipsArticles[i].article]">
+          {{ tipsArticles[i].header }}
+        </div>
+      </div>
+    </div>
+    <div>
+      <div appDropdown class="dropdownItem">
+        <div class="header">State laws</div>
+        <div class="arrow down"></div>
+      </div>
+      <div style="display: none;" class="dropdownSubItems">
+        <div *ngFor="let article of stateLawsArticles; let i = index"
+          [routerLink]="['/article', stateLawsArticles[i].header, stateLawsArticles[i].subHeader, stateLawsArticles[i].article]">
+          {{ stateLawsArticles[i].header }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <img class="image" src="" alt="">
+  </div>
+</div>
+
+<div class="containerArticles">
+  <div>
+    <h2>{{ basicsArticles[0].header }}</h2>
+    <div class="subHeader">{{ basicsArticles[0].article }}</div>
+  </div>
+
+  <div>
+    <h2>{{ typesOfCoverageArticles[0].header }}</h2>
+    <div class="subHeader">{{ typesOfCoverageArticles[0].article }}</div>
+  </div>
+
+  <div>
+    <h2>{{ tipsArticles[0].header }}</h2>
+    <div class="subHeader">{{ tipsArticles[0].article }}</div>
+  </div>
+
+  <div>
+    <h2>{{ stateLawsArticles[0].header }}</h2>
+    <div class="subHeader">{{ stateLawsArticles[0].article }}</div>
+  </div>
+
+</div>
+
+<div class="footerContainer">
+  <div class="bestInsuranceRatesHeader white">10 Best New York car insurance</div>
+  <div class="bestInsuranceRatesSubHeader white">Find and compare your best rates in 2 minutes</div>
+  <div class="zipCode">
+    <app-zip-code></app-zip-code>
+  </div>
+</div>
+<div class="footerContainerLower">
+  <div class="footerContainerLowerValues">
+    <div class="footerContainerLowerHeader">Services</div>
+    <div class="footerContainerLowerSubHeader">Auto Services</div>
+  </div>
+  <div class="footerContainerLowerValues">
+    <div class="footerContainerLowerHeader">Company</div>
+    <div class="footerContainerLowerSubHeader">Company 1</div>
+    <div class="footerContainerLowerSubHeader">Company 2</div>
+    <div class="footerContainerLowerSubHeader">Company 3</div>
+    <div class="footerContainerLowerSubHeader">Company 4</div>
+  </div>
+  <div class="footerContainerLowerValues">
+    <div class="footerContainerLowerHeader">Legal</div>
+    <div class="footerContainerLowerSubHeader">Legal 1</div>
+    <div class="footerContainerLowerSubHeader">Legal 2</div>
+  </div>
+</div>
