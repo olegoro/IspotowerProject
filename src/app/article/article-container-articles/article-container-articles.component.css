@@ -1,0 +1,17 @@
+.subHeader {
+  width: 50vw;
+}
+
+.containerArticles {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 660px) {
+  .containerArticles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -6,7 +6,7 @@ import { SelectedArticleComponent } from './selected-article/selected-article.co
 const routes: Routes = [
   { path: '', component: ArticleComponent },
   {
-    path: 'article/:header/:subHeader/:article',
+    path: 'article/:id',
     component: SelectedArticleComponent,
   },
 ];

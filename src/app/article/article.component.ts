@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ArticlesServiceService } from '../articles-service.service';
+import { Article } from './article';
 
 @Component({
   selector: 'app-article',
@@ -7,22 +8,11 @@ import { ArticlesServiceService } from '../articles-service.service';
   styleUrls: ['./article.component.css'],
 })
 export class ArticleComponent implements OnInit {
-  basicsArticles: { header: string; subHeader: string; article: string }[] = [];
-  typesOfCoverageArticles: {
-    header: string;
-    subHeader: string;
-    article: string;
-  }[] = [];
-  tipsArticles: { header: string; subHeader: string; article: string }[] = [];
-  stateLawsArticles: { header: string; subHeader: string; article: string }[] =
-    [];
+  // articles: Article[] = [];
 
-  constructor(private articleService: ArticlesServiceService) {}
+  constructor(/*private articleService: ArticlesServiceService*/) {}
 
   ngOnInit(): void {
-    this.basicsArticles = this.articleService.basicsArticles;
-    this.typesOfCoverageArticles = this.articleService.typesOfCoverageArticles;
-    this.tipsArticles = this.articleService.tipsArticles;
-    this.stateLawsArticles = this.articleService.stateLawsArticles;
+    // this.articles = this.articleService.articles;
   }
 }

@@ -1,0 +1,104 @@
+.containerUpper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.containerZipCode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.autoInsurance {
+  margin-right: 200px;
+}
+
+.containerHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+/* .bestInsuranceRatesHeader {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+} */
+
+/* .bestInsuranceRatesSubHeader {
+  margin-bottom: 50px;
+} */
+
+.blue {
+  color: blue;
+}
+
+/* .dropdownList {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #f9f9f9;
+  width: 400px;
+  min-height: 200px;
+  border-radius: 50px;
+  box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
+  margin-top: 50px;
+}
+
+.dropdownItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  cursor: pointer;
+} */
+
+/* .arrow {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+} */
+
+/* .dropdownSubItems {
+  padding: 10px;
+  width: 340px;
+  height: auto;
+  cursor: pointer;
+} */
+
+@media (max-width: 660px) {
+  .autoInsurance {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .containerZipCode {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

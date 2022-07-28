@@ -1,4 +1,4 @@
-.containerUpper {
+/* .containerUpper {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
+} */
 
-.autoInsurance {
+/* .autoInsurance {
   margin-right: 200px;
-}
+} */
 
-.containerHeader {
+/* .containerHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,24 +28,23 @@
 
 .bestInsuranceRatesHeader {
   text-align: center;
-  /* color: blue; */
   font-size: 40px;
   margin-top: 50px;
-}
+} */
 
-.bestInsuranceRatesSubHeader {
+/* .bestInsuranceRatesSubHeader {
   margin-bottom: 50px;
-}
+} */
 
-.white {
+/* .white {
   color: white;
-}
+} */
 
-.blue {
+/* .blue {
   color: blue;
-}
+} */
 
-.dropdownList {
+/* .dropdownList {
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -55,62 +54,62 @@
   border-radius: 50px;
   box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 10%);
   margin-top: 50px;
-}
+} */
 
-.dropdownItem {
+/* .dropdownItem {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   min-height: 50px;
   cursor: pointer;
-}
+} */
 
-.dropdownSubItems {
+/* .dropdownSubItems {
   padding: 10px;
   width: 340px;
   height: auto;
   cursor: pointer;
-}
+} */
 
-.containerArticles {
+/* .containerArticles {
   margin-left: 100px;
   margin-bottom: 50px;
-}
+} */
 
-.arrow {
+/* .arrow {
   width: 10px;
   height: 10px;
   border: 1px solid black;
   border-width: 0 2px 2px 0;
-}
+} */
 
-.down {
+/* .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
+} */
 
-.up {
+/* .up {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
-}
+} */
 
-.image {
+/* .image {
   width: 400px;
   height: 200px;
   margin-top: 50px;
-}
+} */
 
-.articleHeader {
+/* .articleHeader {
   font-size: 20px;
   font-weight: bold;
-}
+} */
 
-.subHeader {
+/* .subHeader {
   width: 50vw;
-}
+} */
 
-.footerContainer {
+/* .footerContainer {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -118,9 +117,9 @@
   justify-content: center;
   background-color: blue;
   padding-bottom: 50px;
-}
+} */
 
-.footerContainerLower {
+/* .footerContainerLower {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -128,32 +127,32 @@
   background-color: darkblue;
   padding: 50px;
   height: 350px;
-}
+} */
 
-.footerContainerLowerValues {
+/* .footerContainerLowerValues {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.footerContainerLowerHeader {
+/* .footerContainerLowerHeader {
   font-size: 20px;
   margin-bottom: 15px;
 }
 
 .footerContainerLowerSubHeader {
   font-size: 15px;
-}
+} */
 
-@media (max-width: 660px) {
-  .containerArticles {
+/* @media (max-width: 660px) { */
+/* .containerArticles {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
-  .autoInsurance {
+/* .autoInsurance {
     margin-right: 0;
     margin-bottom: 20px;
   }
@@ -161,5 +160,5 @@
   .containerZipCode {
     flex-direction: column;
     justify-content: center;
-  }
-}
+  } */
+/* } */
