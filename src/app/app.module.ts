@@ -9,8 +9,8 @@ import { DropdownDirective } from "./dropdown.directive";
 import { SelectedArticleComponent } from "./selected-article/selected-article.component";
 import { ArticleUpperContainerComponent } from "./article/article-upper-container/article-upper-container.component";
 import { ArticleDropdownListComponent } from "./article/article-upper-container/article-dropdown-list/article-dropdown-list.component";
-import { ArticleContainerArticlesComponent } from './article/article-container-articles/article-container-articles.component';
-import { ArticleFooterContainerComponent } from './article/article-footer-container/article-footer-container.component';
+import { ArticleContainerArticlesComponent } from "./article/article-container-articles/article-container-articles.component";
+import { ArticleFooterContainerComponent } from "./components/article-footer-container/article-footer-container.component";
 
 @NgModule({
   declarations: [
