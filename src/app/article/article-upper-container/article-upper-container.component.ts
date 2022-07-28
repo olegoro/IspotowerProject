@@ -8,11 +8,7 @@ import { Article } from "../article";
   styleUrls: ["./article-upper-container.component.css"],
 })
 export class ArticleUpperContainerComponent implements OnInit {
-  // articles: Article[] = [];
+  constructor() {}
 
-  constructor(/*private articleService: ArticlesServiceService*/) {}
-
-  ngOnInit(): void {
-    // this.articles = this.articleService.articles;
-  }
+  ngOnInit(): void {}
 }

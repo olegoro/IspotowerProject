@@ -24,18 +24,8 @@ export class DropdownDirective {
     console.log(dropdownName);
 
     if (this.isArrowDown) {
-      // this.renderer.removeClass(dropdownArrow, 'down');
-      // this.renderer.addClass(dropdownArrow, 'up');
-      // subItems.style.display = 'inline';
-      // dropdownName.style.color = 'orange';
-      // this.isArrowDown = !this.isArrowDown;
       this.openDropdown(dropdownArrow, subItems, dropdownName);
     } else {
-      // this.renderer.removeClass(dropdownArrow, 'up');
-      // this.renderer.addClass(dropdownArrow, 'down');
-      // subItems.style.display = 'none';
-      // dropdownName.style.color = 'orange';
-      // this.isArrowDown = !this.isArrowDown;
       this.closeDropdown(dropdownArrow, subItems, dropdownName);
     }
   }
@@ -55,14 +45,4 @@ export class DropdownDirective {
     dropdownName.style.color = '';
     this.isArrowDown = !this.isArrowDown;
   }
-
-  // private openDropdown(dropdownArrow, dropdownList) {
-  //   if (dropdownArrow !== null) {
-  //     this.renderer.removeClass(dropdownArrow, 'down');
-  //     this.renderer.addClass(dropdownArrow, 'up');
-  //   }
-
-  //   dropdownList.style.display = 'flex';
-  //   this.isArrowDown = !this.isArrowDown;
-  // }
 }
